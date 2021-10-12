@@ -2,6 +2,16 @@ Exemplo de comunicação OTA utilizada para a gravação via wifi da placa Franz
 
 Utilize o codigo como base para seus projetos , a bilbioteca neoPixel está incluida no exemplo.
 
+Colocar o ID da sua rede e a senha na parte do codigo abaixo:
+
+/*################################## ID e senha da rede ###################################*/
+
+  const char* ssid = "ID da sua rede";
+  const char* password = "senha da sua rede";
+  
+/*#########################################################################################*/  
+  
+
 Quando o programa estiver em download na placa o led neoPixel piscara na cor verde.
 A primeira gravação tem que ser feita pela porta serial , após a gravação aparecera conforme a imagem abaixo a identificação da placa e o IP dela na rede.
 
