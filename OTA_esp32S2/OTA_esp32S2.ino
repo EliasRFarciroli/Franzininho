@@ -2,7 +2,7 @@
 #include <ESPmDNS.h> //lib necessária para comunicação network
 #include <WiFiUdp.h> //lib necessária para comunicação network
 #include <ArduinoOTA.h> //lib do ArduinoOTA 
-#include <credenciais.h> //
+
 /*=========================== Neo pixel lib ===============================*/
 #include <Adafruit_NeoPixel.h>
 #define LED_PIN 18 //Pino do NeoPixel
@@ -17,10 +17,10 @@ uint32_t azul = strip.Color(  0,   0,   255);
 uint32_t roxo = strip.Color(  153,   51,   153);
 uint32_t LimeGreen = strip.Color( 50, 205, 50);
 /*################################## ID e senha da rede ###################################*/
-/*
+
   const char* ssid = "ID da sua rede";
   const char* password = "senha da sua rede";
-*/
+
 /*################################## ACIONA LED ##########################################*/
 void led_RGB(uint32_t cor) {
   strip.setPixelColor(0, cor);
