@@ -64,16 +64,16 @@ void setup()
   ArduinoOTA.setHostname("Franzininho Wifi");
 
   //define o que será executado quando o ArduinoOTA iniciar
-  ArduinoOTA.onStart( startOTA ); //startOTA é uma função criada para simplificar o código
+  ArduinoOTA.onStart( startOTA ); 
 
   //define o que será executado quando o ArduinoOTA terminar
-  ArduinoOTA.onEnd( endOTA ); //endOTA é uma função criada para simplificar o código
+  ArduinoOTA.onEnd( endOTA ); 
 
   //define o que será executado quando o ArduinoOTA estiver gravando
-  ArduinoOTA.onProgress( progressOTA ); //progressOTA é uma função criada para simplificar o código
+  ArduinoOTA.onProgress( progressOTA ); 
 
   //define o que será executado quando o ArduinoOTA encontrar um erro
-  ArduinoOTA.onError( errorOTA );//errorOTA é uma função criada para simplificar o código
+  ArduinoOTA.onError( errorOTA );
 
   //inicializa ArduinoOTA
   ArduinoOTA.begin();
@@ -93,13 +93,13 @@ void startOTA()
 {
   String type;
 
-  //caso a atualização esteja sendo gravada na memória flash externa, então informa "flash"
+  
   if (ArduinoOTA.getCommand() == U_FLASH)
     type = "flash";
-  else  //caso a atualização seja feita pela memória interna (file system), então informa "filesystem"
+  else  
     type = "filesystem"; // U_SPIFFS
 
-  //exibe mensagem junto ao tipo de gravação
+  
   Serial.println("Iniciar Atualização " + type);
 
   led_RGB(LimeGreen);
