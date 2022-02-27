@@ -56,13 +56,12 @@ Fritzing Schematic
 
 Image 6: Fritzing schematic.
 
-.![embarcados-200x225](https://user-images.githubusercontent.com/83675952/155904672-13833fbb-6576-4784-bb8c-89da0e40c647.png
+![embarcados-200x225](https://user-images.githubusercontent.com/83675952/155904745-d64ceeaa-5d45-496c-ae56-ad2d4ae31b24.png)
+
 
 List of materials
 
 Table 1: List of materials.
-
-The amount Component
 
 1	Franzininho Wifi board
 2	Soil moisture sensor
@@ -72,7 +71,8 @@ The amount Component
 1	level buoy
 1	OLED display
 1	3v3 water pump
-A 4K7 resistor was soldered on the SDA pin and on the SCL pin (I2C communication), without them it is not possible to carry out I2C communication.
+
+4K7 resistor was soldered on the SDA pin and on the SCL pin (I2C communication), without them it is not possible to carry out I2C communication.
 
 Image 7: 4K7 resistors.
 
