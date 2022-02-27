@@ -68,13 +68,21 @@ List of materials
 Table 1: List of materials.
 
 1	Franzininho Wifi board
+
 2	Soil moisture sensor
+
 1	DHT11
+
 1	relay module
+
 1	DS3231
+
 1	level buoy
+
 1	OLED display
+
 1	3v3 water pump
+
 
 4K7 resistor was soldered on the SDA pin and on the SCL pin (I2C communication), without them it is not possible to carry out I2C communication.
 
