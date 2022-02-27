@@ -29,14 +29,12 @@ GND: Black color bar
  Esp32: Yellow color bar
 Image 2: Top view of shield and Franzinho Wifi.
 
+
 ![IMG_20211231_002315-200x113](https://user-images.githubusercontent.com/83675952/155904640-7db0211f-3d5f-4520-b096-092e6acf15f0.jpg)
-
-
 
 Image 3: Side view of shield and Franzinho Wifi.
 
 ![IMG_20211231_002304-200x113](https://user-images.githubusercontent.com/83675952/155904650-e8914b65-fefa-4aa4-b1ae-22be8ef0e93c.jpg)
-
 
 In order to save water, a rainwater collector was developed, consisting of a cylindrical container with a filter attached to the lid, an ice cream pot was used as a container and a cloth as a filter.
 
@@ -44,7 +42,6 @@ Image 4: Tank with rainwater collection filter.
 
 ![IMG_20211226_173655526-200x113](https://user-images.githubusercontent.com/83675952/155904652-d6bfbde4-df35-4fe8-a563-22505ebf0f34.jpg)
  
-
 To irrigate, a hose was used and holes were drilled to the ends.
 
 Image 5: hose with holes.
@@ -54,26 +51,19 @@ Image 5: hose with holes.
 
 Hardware:
 Fritzing Schematic
- 
-
 
 Image 6: Fritzing schematic.
 
 .![embarcados-200x225](https://user-images.githubusercontent.com/83675952/155904672-13833fbb-6576-4784-bb8c-89da0e40c647.png
 
-
- 
-
 List of materials
 
 Table 1: List of materials.
 
-The amount
+The amount Component
 
-Component
-
-1	little Wifi
-two	Soil moisture sensor
+1	Franzininho Wifi board
+2	Soil moisture sensor
 1	DHT11
 1	relay module
 1	DS3231
