@@ -11,17 +11,21 @@ Image 1: Prototype.
 ![IMG_20211231_111125-200x113](https://user-images.githubusercontent.com/83675952/155904631-3123949b-3c01-461d-86ac-d0161714edd2.jpg)
 
 Development history:
+
 The idea of the project was given to a need in the dry months in the southeast region in the year 2021. Water is an essential resource for human life and when we suffer from a period of drought we reflect on how we use it and on the waste of everyday life.
 
 researching the subject, I found a lot of information about forms of irrigation and how to avoid waste.
 
-Irrigation
+Irrigation:
+
 An irrigation system must be made in a sustainable way, aiming at the best use of water, avoiding waste, consequently saving other factors such as soil depletion and energy use. In the case of drip irrigation, the process is done by moistening the soil next to the plant, in a way that saves water, and satisfies the needs of the plantation. The lack of water can slow down the growth of plants and damage the leaves, while the excess “drowns” the roots, making oxygenation difficult and contributing to the appearance of fungi and diseases. The secret is to water slowly, stopping when the water starts to seep into the soil.
 
 Best time for irrigation 
+
 The best time to water the plants is between the early hours of the day and after 15:00.
 
 Shield Franzinho Wifi
+
 To facilitate connections and prototyping, a shield was developed for Franzininho Wifi using a 4×6 cm double-sided perforated plate and pin bar, in it we have:
 
 VCC (3v3): Red color bar;
