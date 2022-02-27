@@ -24,9 +24,11 @@ The best time to water the plants is between the early hours of the day and afte
 Shield Franzinho Wifi
 To facilitate connections and prototyping, a shield was developed for Franzininho Wifi using a 4×6 cm double-sided perforated plate and pin bar, in it we have:
 
-VCC (3v3): Red color bar
-GND: Black color bar
- Esp32: Yellow color bar
+VCC (3v3): Red color bar;
+GND: Black color bar;
+Esp32: Yellow color bar.
+
+ 
 Image 2: Top view of shield and Franzinho Wifi.
 
 
